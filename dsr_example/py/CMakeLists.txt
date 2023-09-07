@@ -103,6 +103,9 @@ install(PROGRAMS scripts/demo/joy_multi_xbox360.py
 install(PROGRAMS scripts/demo/joy_xbox360.py
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
+install(PROGRAMS scripts/demo/logi_joy.py
+   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
 #install(PROGRAMS scripts/demo/m1013x2_no_sync.py
 #   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 #)
